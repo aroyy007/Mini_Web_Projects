@@ -13,8 +13,11 @@ This webpage is part of an exercise from the FreeCodeCamp Web Development course
 
 🌐 You can check it here (https://mini-web-projects-eight.vercel.app/)
 
-<img width="947" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/74709e48-e3d1-4759-90a8-247bc5217529">
-<img width="947" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/51a02359-38a1-45c3-b0c3-9ac5870b95bb">
+<img width="944" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/9ebf5331-bed5-4e9c-a0cb-8a5302a241a8">
+<img width="946" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/ef00d74d-767b-4c27-ad2b-91bc089b2b76">
+<img width="944" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/bdaf01ec-735b-4a68-81b0-f7bfb7c8d3f6">
+<img width="947" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/9b40174e-a26e-47f6-a795-7dbadf5bcaae">
+
 
 
 ## Technologies Used
