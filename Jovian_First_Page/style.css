@@ -5,6 +5,7 @@ body {
     padding-right: 5px; */
     width: 100%;
     background-color: #EEF5FF;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
@@ -22,14 +23,14 @@ body {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     margin-top: 24px;
     margin-bottom: 16px;
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     margin-top: 24px;
     margin-bottom: 16px;
@@ -72,14 +73,104 @@ h2 {
 }
 
 #jobs {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 1000px;
+    margin-top: 0;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+}
+
+#jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+.jobs-header-row th {
+    text-align: center;
+    background-color: #B0E0E6;
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: lightcyan;
 }
 
 h3 {
+    font-family: 'Inter', sans-serif;
     margin-bottom: 8px;
+}
+
+#application {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    border-radius: 5px;
+    padding: 6px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input,
+select,
+textarea {
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.form-group textarea {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+/* #terms
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+.form-group input[type="submit"] {
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 a {
