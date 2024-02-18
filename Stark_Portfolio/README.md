@@ -10,7 +10,7 @@
 I am Tony Stark, also known as Iron Man, a genius, billionaire, playboy, and philanthropist. Explore my portfolio to get a glimpse of my projects, achievements, and contributions to technology.
 ## Demo
 
-🌐 You can check it here (https://mini-web-projects-lsb6-okqir7ezy-arijits-projects-4f5e07ee.vercel.app/))
+🌐 You can check it here (https://mini-web-projects-k5fe.vercel.app/)
 
 <img width="946" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/77257f81-f71c-4d7d-844b-940a1481bd60">
 <img width="941" alt="image" src="https://github.com/aroyy007/Mini_Web_Projects/assets/120275227/a256b38d-aabc-4ef3-9846-d155b69674f3">
