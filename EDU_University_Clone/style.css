@@ -1,15 +1,19 @@
 body {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #EEEEEE;
     margin: 0px;
     padding: 0px;
     font-family: 'Inter', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 74px;
-    background-color: #FFFFFF;
+    background-color: #EEEEEE;
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     position: fixed;
     z-index: 100;
@@ -84,13 +88,19 @@ nav {
 }
 
 .l-btn {
-    background-color: #FFFFFF;
+    background-color: #EEEEEE;
     color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
     border: none;
     font-size: 14px;
     font-weight: bold;
     margin: 0px 2px;
     cursor: pointer;
+}
+
+.l-btn:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .s-btn {
@@ -106,6 +116,16 @@ nav {
     margin-right: 0px;
     margin-left: 24px;
 }
+
+.s-btn:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.s-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 
 #homepage-section {
     margin-left: auto;
@@ -183,17 +203,22 @@ nav {
 footer {
     width: 100%;
     background-color: #36384E;
+    display: flex;
+    /* Makes the footer a flexbox container */
+    flex-direction: column;
+    /* Stacks the elements vertically */
+    align-items: center;
+    /* Centers the elements horizontally */
+    justify-content: center;
+    /* Centers the elements vertically */
 }
 
 .social-media {
-    width: 100%;
     margin: 0px;
-    /* padding: 20px 0px; */
     padding-top: 15px;
     padding-bottom: 15px;
-    display: block;
+    padding-left: 35px;
     text-align: center;
-
 }
 
 .social-icon {
@@ -206,12 +231,12 @@ footer {
 }
 
 .foot-links {
-    display: inline-block;
+    display: block;
     list-style: none;
-    align-items: center;
-    justify-content: center;
+    /* justify-content: center;  - Remove this line if you don't want to center the links horizontally */
     margin-left: auto;
     margin-right: auto;
+    /* align-items: center;  - Remove this line if you don't want to center the links vertically */
 }
 
 .foot-links ul li {
@@ -222,6 +247,7 @@ footer {
     margin-right: auto;
     padding: 0px;
     margin-bottom: 10px;
+    /* align-items: center;  - Remove this line if you don't want to center the links vertically */
 }
 
 .foot-links ul li a {
@@ -229,17 +255,21 @@ footer {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 1px;
-    margin: 0px 20px;
+    margin: 0px;
+    margin-left: 25px;
     padding: 0px;
+    display: block;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
 }
 
 .foot-text {
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 400;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    padding-left: 60px;
     display: block;
     letter-spacing: 1px;
     text-align: center;
