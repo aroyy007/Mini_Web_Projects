@@ -20,10 +20,15 @@
             <div class="logo">
                 <img src="East-Delta-University-logo.png" alt="uni-logo" class="uni-logo">
             </div>
+            <div class="menu-btn" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
             <div class="menu">
                 <ul>
                     <li><a href="#home"><span style="font-weight: bold;">HOME</span></a></li>
-                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#courses"><a href="course.html">COURSES</a></a></li>
                     <li><a href="#admission">ADMISSION</a></li>
                     <li><a href="#faculty-member">FACULTY MEMBERS</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -31,7 +36,9 @@
             </div>
             <div class="login">
                 <button class="l-btn">Login</button>
-                <button class="s-btn">Sign Up</button>
+                <button class="s-btn">
+                    <a href="https://forms.visme.co/formsPlayer/vdnxzomd-untitled-project" target="_blank">Sign Up</a>
+                </button>
             </div>
         </nav>
     </header>
@@ -46,7 +53,7 @@
                 </h1>
                 <p class="hero-sub-text">The Ultimate Guide to Universities Worldwide</p>
             </div>
-        </div>
+        </div> 
     </section>
 
     <section style="margin: 0;">
@@ -76,13 +83,10 @@
         <div class="social-media">
             <a href="https://www.facebook.com/eastdeltauniversity1" target="_blank"><img src="Vector.png" alt="facebook"
                     class="social-icon"></a>
-
             <a href="https://www.instagram.com/eastdeltauniversity/" target="_blank"><img src="iVector.png"
                     alt="instagram" class="social-icon"></a>
-
             <a href="https://twitter.com/edubd" target="_blank"><img src="bi_twitter.png" alt="twitter"
                     class="social-icon"></a>
-
             <a href="https://www.linkedin.com/school/east-delta-university/" target="_blank"><img src="mdi_linkedin.png"
                     alt="linkedin" class="social-icon"></a>
         </div>
@@ -102,6 +106,14 @@
             </p>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
+
 </body>
 
 </html>
