@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style_index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <ul class="nav-bar">
+            <li class="nav-bar-item"><a href="index.html">Google Search</a></li>
+        </ul>
+    </div>
+
+    <div class="head">
+        <p>Advanced Search</p>
+    </div>
+
+    <hr class="line">
+
+    <div class="adv-body">
+        <p class="head2">Find pages with...</p>
+
+        <form action="https://google.com/search">
+            <div class="row-input">
+                <div class="left">
+                    <p>all those words : </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_q">
+                </div>
+            </div>
+            <div class="row-input">
+                <div class="left">
+                    <p>this exact word or phrase : </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_epq">
+                </div>
+            </div>
+            <div class="row-input">
+                <div class="left">
+                    <p>any of those words : </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_oq">
+                </div>
+            </div>
+            <div class="row-input">
+                <div class="left">
+                    <p>none of those words : </p>
+                </div>
+                <div class="right">
+                    <input type="text" class="form-control" name="as_eq">
+                </div>
+            </div>
+
+            <div class="ad-btn">
+                <div class="left"></div>
+                <div class="right">
+                    <input type="submit" value="Advanced Search" class="ad-btn-class">
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
