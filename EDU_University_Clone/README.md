@@ -7,7 +7,15 @@
 
 ## Project Overview
 
-Welcome to the EDU University Clone project! This repository showcases a basic clone of a university website, demonstrating the power and flexibility of HTML and CSS. The project aims to replicate the essential features of a university’s web presence, focusing on a clean design and user-friendly interface.
+Welcome to my repository for the University Clone Website project. This project is a simulation of a university's website, crafted with HTML and CSS to provide a realistic and interactive experience.
+
+## Features
+
+- **Multiple Pages**: The website features several pages, each designed to cover different aspects of university life, from academic programs to campus events.
+
+- **Responsive Design**: Built with HTML and CSS, the website is fully responsive and provides a seamless experience on various devices and screen sizes.
+
+- **Visme Form Integration**: For the signup process, the website utilizes Visme Form, ensuring a smooth and user-friendly registration experience.
 
 ## Demo
 
