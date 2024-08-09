@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>My Port-folio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/Black_Gold_Elegant_Simple_Monogram_Initial_Name_Brand_Logo-removebg-preview.png"
+                    class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>CS Undergrad</p>
+                <h1>Hi, I'm <span>Arijit</span> <br>From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG-20210722-WA0069-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum nemo consectetur
+                        libero enim, minus hic ad molestias quasi molestiae culpa.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>UI/UX Design Training at EDU</li>
+                            <li><span>2023-2024</span><br>Team Lead at StarApp LLC</li>
+                            <li><span>2022-2023</span><br>UI/UX Design Executive at BrainStation 23</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>UI/UX Design Training at IT Institute</li>
+                            <li><span>2022</span><br>MSc From MIT</li>
+                            <li><span>2020</span><br>Bsc From EDU</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in deleniti, fugiat
+                        aspernatur sunt eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in deleniti, fugiat
+                        aspernatur sunt eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique in deleniti, fugiat
+                        aspernatur sunt eius!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1_1gCvbKqeM26J9CGAwfLlQw.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/shutterstock_1070444933-1536x1025.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/commerce-manager-560.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>012345678</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/TonyStarkResume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Arijit , 2024 <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.querySelectorAll('.tab-links');
+        var tabContents = document.querySelectorAll('.tab-contents');
+
+        function opentab(tab) {
+            for (tablink of tabLinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabContents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tab).classList.add('active-tab');
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu() {
+            sidemenu.style.right = '0';
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbxRuTmY-hBqKjqIuw529POSU6zYxkGvvD7uOs44RyO_viih6WI2opZkkk90N6KIDN8z/exec>'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thanks for submitting your response"
+                    form.reset()
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000);
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/a007a4c3ef.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
