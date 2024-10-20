@@ -23,5 +23,6 @@ This project is a simple calculator application built using HTML, CSS, and JavaS
 This project showcases a fundamental understanding of DOM manipulation and basic styling techniques, and is perfect for anyone starting out with front-end web development.
 
 ### Screenshot:
-![image](https://github.com/user-attachments/assets/2d7dbc7e-7859-4a98-872b-3e7bd28b9d2c)
+![image](https://github.com/user-attachments/assets/0a2e605d-2eee-432f-b906-3ad0e5162544)
+
 
