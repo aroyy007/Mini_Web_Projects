@@ -1,3 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(black-background.gif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 #calculator button {
     text-align: center;
@@ -53,8 +62,8 @@
 
 #calculator #display {
     width: 100%;
+    font-family: monospace;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     padding: 20px;
     text-align: left;
@@ -62,4 +71,16 @@
     background-color: hsl(0, 0%, 20%);
     color: white;
     border-bottom: 2px solid hsl(0, 0%, 20%);
+}
+
+#calculator .backspaceBtn {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#calculator .backspaceBtn:hover {
+    background-color: hsl(0, 100%, 60%);
+}
+
+#calculator .backspaceBtn:active {
+    background-color: hsl(0, 100%, 70%);
 }
